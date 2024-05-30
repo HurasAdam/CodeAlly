@@ -1,12 +1,21 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import logo from "../assets/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 
 import { navItems } from '../constants';
+import { useWindowSize } from '@react-hook/window-size';
 
 const Navbar:React.FC = () => {
     const [mobileDrawerOpen,setMobileDrawerOpen]=useState<boolean>(false);
+    const [windowWidth] = useWindowSize();
+
+    useEffect(() => {
+        if (windowWidth > 780) {
+            setMobileDrawerOpen(false);
+        }
+    }, [windowWidth]);
+
 
     const toggleNavbar = ():void=>{
         setMobileDrawerOpen((prevState)=>!prevState);
@@ -17,7 +26,7 @@ const Navbar:React.FC = () => {
 <div className="flex justify-between items-center">
     <div className="flex items-center flex-shrink-0">
         <img className='h-10 w-10 mr-2' src={logo} alt="logo" />
-        <span className='text-xl tracking-tight'>VirtualR</span>
+        <span className='text-xl tracking-tight'>CodeAlly</span>
     </div>
     <ul className='hidden lg:flex ml-14 space-x-12 '>
 {navItems.map((item,index)=>{

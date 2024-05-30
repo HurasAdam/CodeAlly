@@ -1,4 +1,9 @@
-
+import { FiMessageSquare } from "react-icons/fi";
+import { GiFlatPlatform } from "react-icons/gi";
+import { HiTemplate } from "react-icons/hi";
+import { MdOnlinePrediction } from "react-icons/md";
+import { FaHandshakeAngle } from "react-icons/fa6";
+import { SiGoogleanalytics } from "react-icons/si";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -16,104 +21,106 @@ export const navItems = [
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Paul Terner",
+    company: "Tech Innovations Ltd.",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "I am highly impressed with the professionalism and dedication of the team. Their innovative solutions have significantly contributed to the success of our project.",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "Emma Wilson",
+    company: "Digital Frontier Solutions",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "Working with this team has been a pleasure. Their commitment to excellence and problem-solving skills have exceeded our expectations.",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "Andrew Brown",
+    company: "NextGen Technologies",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "I am extremely satisfied with the services provided. The team's attention to detail and ability to deliver results beyond our expectations have been remarkable.",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    user: "Max Smith",
+    company: "InnovateX",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "It's been a game-changer working with this company. Their dedication and innovative approach have helped us achieve our goals faster than we anticipated.",
   },
   {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
+    user: "John Davis",
+    company: "CodeCrafters Inc.",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "The professionalism and expertise demonstrated by the team are commendable. They have consistently delivered outstanding results and exceeded our expectations.",
   },
   {
-    user: "Emily Davis",
-    company: "Synergy Systems",
+    user: "Sophie Miller",
+    company: "ByteSprint Technologies",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "I am impressed by the team's commitment to excellence. Their proactive approach and dedication to our project's success have been invaluable.",
   },
 ];
 
-// export const features = [
-//   {
-//     icon: <BotMessageSquare />,
-//     text: "Drag-and-Drop Interface",
-//     description:
-//       "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
-//   },
-//   {
-//     icon: <Fingerprint />,
-//     text: "Multi-Platform Compatibility",
-//     description:
-//       "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
-//   },
-//   {
-//     icon: <ShieldHalf />,
-//     text: "Built-in Templates",
-//     description:
-//       "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
-//   },
-//   {
-//     icon: <BatteryCharging />,
-//     text: "Real-Time Preview",
-//     description:
-//       "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
-//   },
-//   {
-//     icon: <PlugZap />,
-//     text: "Collaboration Tools",
-//     description:
-//       "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
-//   },
-//   {
-//     icon: <GlobeLock />,
-//     text: "Analytics Dashboard",
-//     description:
-//       "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
-//   },
-// ];
+
+export const features = [
+  {
+    icon: FiMessageSquare,
+    text: "Intuitive Interface",
+    description:
+      "Effortlessly craft and organize your projects with an easy-to-use drag-and-drop interface.",
+  },
+  {
+    icon: GiFlatPlatform,
+    text: "Cross-Platform Support",
+    description:
+      "Develop applications that work seamlessly across multiple devices, including mobile, desktop, and web.",
+  },
+  {
+    icon: HiTemplate,
+    text: "Ready-Made Templates",
+    description:
+      "Kickstart your projects with a variety of built-in templates tailored for different needs and industries.",
+  },
+  {
+    icon: MdOnlinePrediction,
+    text: "Live Preview",
+    description:
+      "Instantly see changes as you make them, enabling quick iterations and real-time feedback.",
+  },
+  {
+    icon: FaHandshakeAngle,
+    text: "Team Collaboration",
+    description:
+      "Collaborate with your team in real-time, enhancing productivity and idea sharing.",
+  },
+  {
+    icon: SiGoogleanalytics,
+    text: "Insightful Analytics",
+    description:
+      "Track user interactions and behaviors with a comprehensive analytics dashboard to drive informed decisions.",
+  },
+];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Effortless Code Merging",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Seamlessly merge your code changes with our intuitive version control system.",
   },
   {
-    title: "Review code without worry",
+    title: "Code Review Simplified",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Effortlessly review and collaborate on code changes with our integrated code review tools.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "AI-Powered Assistance",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Leverage AI algorithms to automate repetitive tasks and speed up your development process.",
   },
   {
-    title: "Share work in minutes",
+    title: "Instant Work Sharing",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Share your work instantly with team members, enabling seamless collaboration and faster progress.",
   },
 ];
+
 
 export const pricingOptions = [
   {
