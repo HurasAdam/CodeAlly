@@ -1,10 +1,10 @@
-# CodeAll - Developer Tools Landing Page
+# CodeAlly - Developer Tools Landing Page
 
-Developer Tools Landing Page is a modern and responsive landing page for showcasing software development tools, built with React, TypeScript, Tailwind CSS, and Vite.
+CodeAlly is a modern and responsive landing page showcasing developer tools, built with React, TypeScript, Tailwind CSS, and Vite.
 
 ## Description
 
-- This landing page is designed to introduce potential users to a suite of developer tools. It focuses on highlighting the main features and benefits of the tools, encouraging developers and companies to explore further and integrate them into their workflows.
+- This landing page introduces potential users to a suite of developer tools, emphasizing their main features and benefits. It aims to encourage developers and companies to explore further and integrate these tools into their workflows.
 
 ## Technologies
 
@@ -22,7 +22,7 @@ Before you begin, ensure you have the following installed on your local machine:
 
 ## Installation
 
-- To install and run Developer Tools Landing Page locally on your computer, follow these steps:
+- To install and run CodeAlly locally on your computer, follow these steps:
   - Clone the repository to your local machine.
        `git clone https://github.com/HurasAdam/CodeAlly`
   - Install dependencies in the project's root directory.
