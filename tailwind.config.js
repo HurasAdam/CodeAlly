@@ -6,12 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
-        "primary":"#010851",
-        "secondary":"#9A7Af1",
-        "tartiary":"#707070",
-        "pink":"#EE9AE5",
-      }
+
     },
   },
   plugins: [],
