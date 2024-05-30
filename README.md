@@ -30,3 +30,6 @@ Before you begin, ensure you have the following installed on your local machine:
   - After installing dependencies, run the project in development mode.
     `npm run dev`
   - Open your browser and navigate to http://localhost:5173 to see the running application.
+
+  ## Live 📍
+https://codeally.netlify.app/
